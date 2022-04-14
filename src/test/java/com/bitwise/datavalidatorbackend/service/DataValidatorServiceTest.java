@@ -18,6 +18,6 @@ public class DataValidatorServiceTest {
     @Test
     void testTest() {
         List<DataValidator> test = dataValidatorService.test();
-        Assertions.assertEquals(2, test.size());
+        Assertions.assertEquals(3, test.size());
     }
 }
